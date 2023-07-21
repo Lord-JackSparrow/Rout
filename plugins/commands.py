@@ -30,7 +30,7 @@ async def start(client, message):
                     InlineKeyboardButton('💠 ʜᴇʟᴘ 💠', callback_data='help'),
                     InlineKeyboardButton('☠ ᴀʙᴏᴜᴛ ☠', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇs 🎬', url=CHNL_LNK)
+                    InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🎬', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -58,7 +58,7 @@ async def start(client, message):
                     InlineKeyboardButton('💠 ʜᴇʟᴘ 💠', callback_data='help'),
                     InlineKeyboardButton('☠ ᴀʙᴏᴜᴛ ☠', callback_data='about')
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🎬', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -77,7 +77,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "❆ Jᴏɪɴ Oᴜʀ Bᴀᴄᴋ-Uᴘ Cʜᴀɴɴᴇʟ ❆", url=invite_link.invite_link
+                    "🎬 ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🎬", url=invite_link.invite_link
                 )
             ]
         ]
@@ -106,7 +106,7 @@ async def start(client, message):
                     InlineKeyboardButton('💠 ʜᴇʟᴘ 💠', callback_data='help'),
                     InlineKeyboardButton('☠ ᴀʙᴏᴜᴛ ☠', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇs 🎬', url=CHNL_LNK)
+                    InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🎬', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -176,7 +176,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
+                          InlineKeyboardButton('💡 sᴜᴘᴘᴏʀᴛ', url=GRP_LNK),
                           InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇs 🎬', url=CHNL_LNK)
                        ],[
                           InlineKeyboardButton("🧑‍🎓 ᴏᴡɴᴇʀ", url="t.me/rudra_rout")
@@ -295,10 +295,10 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                      InlineKeyboardButton('💡 sᴜᴘᴘᴏʀᴛ', url=GRP_LNK),
+                      InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇs 🎬', url=CHNL_LNK)
                    ],[
-                      InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
+                      InlineKeyboardButton("🧑‍🎓 ᴏᴡɴᴇʀ", url="t.me/rudra_rout")
                      ]
                     ]
                 )
@@ -349,10 +349,10 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-              InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+              InlineKeyboardButton('💡 sᴜᴘᴘᴏʀᴛ', url=GRP_LNK),
+              InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇs 🎬', url=CHNL_LNK)
            ],[
-              InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
+              InlineKeyboardButton("🧑‍🎓 ᴏᴡɴᴇʀ", url="t.me/rudra_rout")
              ]
             ]
         )
@@ -844,7 +844,7 @@ async def shortlink(bot, message):
     try:
         command, shortlink_url, api = data.split(" ")
     except:
-        return await message.reply_text("<b>Cᴏᴍᴍᴀɴᴅ Iɴᴄᴏᴍᴘʟᴇᴛᴇ :(\n\nGɪᴠᴇ ᴍᴇ ᴀ sʜᴏʀᴛʟɪɴᴋ ᴀɴᴅ ᴀᴘɪ ᴀʟᴏɴɢ ᴡɪᴛʜ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ !\n\nFᴏʀᴍᴀᴛ: <code>/shortlink shorturllink.in 95a8195c40d31e0c3b6baa68813fcecb1239f2e9</code></b>")
+        return await message.reply_text("<b>Cᴏᴍᴍᴀɴᴅ Iɴᴄᴏᴍᴘʟᴇᴛᴇ :(\n\nGɪᴠᴇ ᴍᴇ ᴀ sʜᴏʀᴛʟɪɴᴋ ᴀɴᴅ ᴀᴘɪ ᴀʟᴏɴɢ ᴡɪᴛʜ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ !\n\nFᴏʀᴍᴀᴛ: <code>/shortlink omnifly.in.net e6772cfa058351682dc554f15fa7933810c52919</code></b>")
     reply = await message.reply_text("<b>Pʟᴇᴀsᴇ Wᴀɪᴛ...</b>")
     await save_group_settings(grpid, 'shortlink', shortlink_url)
     await save_group_settings(grpid, 'shortlink_api', api)
