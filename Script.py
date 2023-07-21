@@ -194,7 +194,7 @@ Nᴀᴍᴇ - {}"""
 <b>▱▰▱▰▱▰▱▰▱▰▱▰▱▰
 If You Want To See More Movies & Webseries Then Request Your Movie & Series Name.👇
 
--<a href='https://t.me/Hindi_dub_animee'>📝 Request here</a>.</b>"""
+-<a href='https://t.me/bollywoodsouthhindimovieswebse'>📝 Request here</a>.</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>The Results For ➠: {query}
