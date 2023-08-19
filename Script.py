@@ -190,20 +190,19 @@ Nᴀᴍᴇ - {}"""
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
-<b>▱▰▱▰▱▰▱▰▱▰▱▰▱▰
-If You Want To See More Movies & Webseries Then Request Your Movie & Series Name.👇
+<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : {file_name}</b>
 
--<a href='https://t.me/bollywoodsouthhindimovieswebse'>📝 Request here</a>.</b>"""
+<b>⚙️ File Size : {file_size}</b>"""
 
     IMDB_TEMPLATE_TXT = """
-<b>The Results For ➠: {query}
+<b>Your Results ➠: {query}
 IMDb Data:
 
 🏷 Title: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10
+🔖 Story : {plot}
 
 🍁ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/rudraraut'>ʀᴜᴅʀᴀ ʀᴀᴜᴛ</a></b>"""
     
