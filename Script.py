@@ -190,9 +190,7 @@ Nᴀᴍᴇ - {}"""
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : {file_name}</b>
-
-<b>⚙️ File Size : {file_size}</b>"""
+@rudraraut : {file_name}"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Your Results ➠: {query}
