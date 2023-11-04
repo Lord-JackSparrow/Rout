@@ -160,7 +160,7 @@ async def start(client, message):
                           InlineKeyboardButton('💡 sᴜᴘᴘᴏʀᴛ', url=GRP_LNK),
                           InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇs 🎬', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("🧑‍🎓 ᴏᴡɴᴇʀ", url="t.me/rudra_rout")
+                          InlineKeyboardButton("🧑‍🎓 ᴏᴡɴᴇʀ", url="t.me/routbotowner_bot")
                          ]
                         ]
                     )
@@ -179,7 +179,7 @@ async def start(client, message):
                           InlineKeyboardButton('💡 sᴜᴘᴘᴏʀᴛ', url=GRP_LNK),
                           InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇs 🎬', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("🧑‍🎓 ᴏᴡɴᴇʀ", url="t.me/rudra_rout")
+                          InlineKeyboardButton("🧑‍🎓 ᴏᴡɴᴇʀ", url="t.me/routbotowner_bot")
                          ]
                         ]
                     )
@@ -298,7 +298,7 @@ async def start(client, message):
                       InlineKeyboardButton('💡 sᴜᴘᴘᴏʀᴛ', url=GRP_LNK),
                       InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇs 🎬', url=CHNL_LNK)
                    ],[
-                      InlineKeyboardButton("🧑‍🎓 ᴏᴡɴᴇʀ", url="t.me/rudra_rout")
+                      InlineKeyboardButton("🧑‍🎓 ᴏᴡɴᴇʀ", url="t.me/routbotowner_bot")
                      ]
                     ]
                 )
@@ -336,7 +336,7 @@ async def start(client, message):
             InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url=HOW_TO_VERIFY)
         ]]
         await message.reply_text(
-            text="<b>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ!\nKɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ Sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs ᴜɴᴛɪʟ 12 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ !</b>",
+            text="<b>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ!\nKɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ Sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs ᴜɴᴛɪʟ 12 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ !\n\nआप verified नहीं हैं !\nकृपया जारी रखने के लिए verify करें ताकि आप अब से 12 घंटे तक बिना रुकावट के unlimited फिल्में  प्राप्त कर सकें !!</b>",
             protect_content=True if PROTECT_CONTENT else False,
             reply_markup=InlineKeyboardMarkup(btn)
         )
@@ -352,7 +352,7 @@ async def start(client, message):
               InlineKeyboardButton('💡 sᴜᴘᴘᴏʀᴛ', url=GRP_LNK),
               InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇs 🎬', url=CHNL_LNK)
            ],[
-              InlineKeyboardButton("🧑‍🎓 ᴏᴡɴᴇʀ", url="t.me/rudra_rout")
+              InlineKeyboardButton("🧑‍🎓 ᴏᴡɴᴇʀ", url="t.me/routbotowner_bot")
              ]
             ]
         )
