@@ -711,7 +711,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         ]]
                         await client.send_message(
                             chat_id=query.from_user.id,
-                            text="<b>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ!\nKɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ Sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs ᴜɴᴛɪʟ 12 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ !</b>",
+                            text="<b>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ!\nKɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ Sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs ᴜɴᴛɪʟ 12 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ !\n\nआप verified नहीं हैं !\nकृपया जारी रखने के लिए verify करें ताकि आप अब से 12 घंटे तक बिना रुकावट के unlimited फिल्में  प्राप्त कर सकें !!</b>",
                             protect_content=True if ident == 'checksubp' else False,
                             disable_web_page_preview=True,
                             parse_mode=enums.ParseMode.HTML,
@@ -730,7 +730,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                 InlineKeyboardButton('💡 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url=GRP_LNK),
                                 InlineKeyboardButton('🔔 ᴜᴘᴅᴀᴛᴇs', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton("🧑‍🎓 ᴏᴡɴᴇʀ", url="t.me/rudra_rout")
+                                InlineKeyboardButton("🧑‍🎓 ᴏᴡɴᴇʀ", url="t.me/routbotowner_bot")
                                 ]
                                 ]
                             )
@@ -785,7 +785,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]]
             await client.send_message(
                 chat_id=query.from_user.id,
-                text="<b>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ!\nKɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ Sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs ᴜɴᴛɪʟ 12 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ !</b>",
+                text="<b>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ!\nKɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ Sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs ᴜɴᴛɪʟ 12 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ !\n\nआप verified नहीं हैं !\nकृपया जारी रखने के लिए verify करें ताकि आप अब से 12 घंटे तक बिना रुकावट के unlimited फिल्में  प्राप्त कर सकें !!</b>",
                 protect_content=True if ident == 'checksubp' else False,
                 disable_web_page_preview=True,
                 parse_mode=enums.ParseMode.HTML,
@@ -803,7 +803,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                   InlineKeyboardButton('💡 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url=GRP_LNK),
                   InlineKeyboardButton('🔔 ᴜᴘᴅᴀᴛᴇs', url=CHNL_LNK)
                ],[
-                  InlineKeyboardButton("🧑‍🎓 ᴏᴡɴᴇʀ", url="t.me/rudra_rout")
+                  InlineKeyboardButton("🧑‍🎓 ᴏᴡɴᴇʀ", url="t.me/routbotowner_bot")
                  ]
                 ]
             )
@@ -1419,7 +1419,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/rudra_rout")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/routbotowner_bot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
